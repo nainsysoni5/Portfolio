@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nainsy Soni - Cyber Student Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Nainsy Soni</h1>
+    <p>Cyber Student | Aspiring Software Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#internship">Internship</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#education">Education</a>
+    </nav>
+    <a href="nainsy resume.pdf" download="Nainsy_Soni_Resume.pdf" class="btn-download">Download Resume</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Passionate about Cybersecurity and Software Development</p>
+      <a href="#projects" class="btn-hero">Explore My Work</a>
+    </div>
+    <div class="hero-graphics">
+      <svg class="hero-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="100" cy="100" r="80" fill="#2980b9" opacity="0.3"/>
+        <circle cx="60" cy="60" r="50" fill="#3498db" opacity="0.4"/>
+        <circle cx="140" cy="140" r="50" fill="#2980b9" opacity="0.4"/>
+      </svg>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>Email: <a href="mailto:nainsysoni5@gmail.com">nainsysoni5@gmail.com</a></p>
+      <p>Mobile: +91-8962728392</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/nainsysoni/" target="_blank" rel="noopener noreferrer">linkedin.com/in/nainsysoni</a></p>
+      <p>GitHub: <a href="https://github.com/nainsysoni5" target="_blank" rel="noopener noreferrer">github.com/nainsysoni5</a></p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C++, Java, C</li>
+        <li><strong>Tools:</strong> Linux, GitHub, MySQL</li>
+        <li><strong>Soft Skills:</strong> Good observer, Teamwork, Adaptability</li>
+      </ul>
+    </section>
+
+    <section id="internship">
+      <h2>Internship</h2>
+      <h3>C++ Programming Internship - Techvanto Academy, New Delhi</h3>
+      <p><em>June 5, 2024 - July 20, 2024</em></p>
+      <ul>
+        <li>Gained hands-on experience in C++ programming focusing on Object-Oriented Programming (OOP), Data Structures, and Algorithms.</li>
+        <li>Developed a Tic-Tac-Toe game in C++ implementing game logic, input validation, and result declaration.</li>
+        <li>Learned best coding practices, debugging techniques, and efficient algorithm optimization.</li>
+        <li>Worked on real-world coding challenges to strengthen problem-solving skills.</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="fade-in">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-item" tabindex="0" data-title="Photographer Website" data-description="Designed a responsive and visually appealing website for photographers using HTML. Key sections include a homepage, gallery, about, services, and contact. Focused on clean layout, smooth navigation, and showcasing visual effects effectively.">
+          <h3>Photographer Website</h3>
+          <p>Designed a responsive and visually appealing website for photographers using HTML. Key sections include a homepage, gallery, about, services, and contact. Focused on clean layout, smooth navigation, and showcasing visual effects effectively.</p>
+        </div>
+        <div class="project-item" tabindex="0" data-title="Tic-Tac-Toe Game (C++)" data-description="Developed a console-based Tic-Tac-Toe game in C++ with clean logic, input validation, dynamic board updates, and result declaration. Implemented core game mechanics, winning conditions, and draw detection for a smooth user experience.">
+          <h3>Tic-Tac-Toe Game (C++)</h3>
+          <p>Developed a console-based Tic-Tac-Toe game in C++ with clean logic, input validation, dynamic board updates, and result declaration. Implemented core game mechanics, winning conditions, and draw detection for a smooth user experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <ul>
+        <li>Mastering Data Structures & Algorithms using C and C++ - Udemy (Oct 11, 2024)</li>
+        <li>CompTIA Security+ (Viruses, threats and compromise indicators) - Udemy (Aug 4, 2025)</li>
+        <li>Hands-on learning skill Linux+ - Cybrary (Dec 20, 2024)</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <h3>Lovely Professional University, Punjab, India</h3>
+      <p>Bachelor of Technology - Computer Science and Engineering; CGPA: 5.14 (2022 - Present)</p>
+      <h3>Pragati Vidya Peeth School, Gwalior, MP</h3>
+      <p>Senior Secondary School; 84% (2021 - 2022)</p>
+      <p>Secondary School; 86% (2019 - 2020)</p>
+    </section>
+  </main>
+
+  <button id="backToTop" title="Back to top">&#8679;</button>
+
+  <footer>
+    <p>© 2024 Nainsy Soni. All rights reserved.</p>
+  </footer>
+
+  <!-- Modal for project details -->
+  <div id="projectModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
